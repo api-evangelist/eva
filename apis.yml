@@ -1,0 +1,32 @@
+aid: eva
+name: EVA
+description: "Validate email addresses"
+url: https://eva.pingutil.com/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Email"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Email
+  - Public APIs
+apis:
+  - name: EVA
+    description: "Validate email addresses"
+    humanURL: https://eva.pingutil.com/
+    baseURL: https://eva.pingutil.com/
+    tags:
+      - Email
+    properties:
+      - type: Documentation
+        url: https://eva.pingutil.com/
+common:
+  - type: Website
+    url: https://eva.pingutil.com/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
