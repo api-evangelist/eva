@@ -39,7 +39,6 @@ apis:
   - name: EVA
     description: "Validate email addresses"
     humanURL: https://eva.pingutil.com/
-    baseURL: https://eva.pingutil.com/
     tags:
       - Email
     properties:
